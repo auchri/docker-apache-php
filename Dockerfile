@@ -6,3 +6,6 @@ RUN apt-get update && apt-get -y install mcrypt php5-mcrypt php5-curl && apt-get
 
 # Enable mcrypt
 RUN php5enmod mcrypt
+
+# Disable directory listing
+RUN /usr/sbin/a2dismod autoindex
