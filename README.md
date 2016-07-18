@@ -6,3 +6,7 @@ This is an Apache image including SSL and PHP5 support
 * curl
 * mcrypt
 * mod_rewrite
+
+## Disabled
+
+* Autoindex (directory listing)
