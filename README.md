@@ -10,3 +10,4 @@ This is an Apache image including SSL and PHP5 support
 ## Disabled
 
 * Autoindex (directory listing)
+* Server signatures
