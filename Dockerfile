@@ -11,5 +11,5 @@ RUN php5enmod mcrypt
 RUN /usr/sbin/a2dismod -f autoindex
 
 # Disable server signatures
-RUN echo "ServerSignature Off" > /etc/apache2/apache2.conf
-RUN echo "ServerTokens Prod" > /etc/apache2/apache2.conf
+RUN echo "ServerSignature Off" >> /etc/apache2/apache2.conf
+RUN echo "ServerTokens Prod" >> /etc/apache2/apache2.conf
